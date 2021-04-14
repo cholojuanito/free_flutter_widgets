@@ -1,0 +1,21 @@
+# IDE stuff
+.vscode/
+**/*.iml
+.idea/**
+*.iml
+*.ipr
+*.iws
+.idea/
+# Mac
+.DS_Store
+
+# Files and directories created by pub
+.dart_tool/
+.pub-cache/
+.pub/
+.flutter-plugins
+.packages
+pubspec.lock
+
+# Example build directories
+build
