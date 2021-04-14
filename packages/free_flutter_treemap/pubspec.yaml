@@ -1,0 +1,14 @@
+name: free_flutter_treemap
+description: A Flutter Treemap library for creating interactive treemap to visualize flat and hierarchical data based on squarified, slice, and dice algorithms.
+version: 19.1.54-beta
+homepage: https://github.com/cholojuanito/free_flutter_widgets/tree/main/packages/free_flutter_treemap
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  free_flutter_core:
+    path: ../free_flutter_core

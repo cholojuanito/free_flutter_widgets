@@ -1,0 +1,18 @@
+name: free_flutter_sliders
+description: A Flutter library for creating customizable and UI-rich slider, range slider, and range selector widgets for filtering purposes.
+version: 18.3.35-beta
+homepage: https://github.com/cholojuanito/free_flutter_widgets/tree/main/packages/free_flutter_sliders
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  intl: ">=0.15.0 <0.20.0"
+
+  free_flutter_core:
+    path: ../free_flutter_core
+
+flutter:

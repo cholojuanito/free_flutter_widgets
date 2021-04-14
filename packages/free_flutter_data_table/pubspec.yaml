@@ -1,0 +1,16 @@
+name: free_flutter_data_table
+description: The Free Flutter DataTable is used to display and manipulate data in a tabular view. Its rich feature set includes different types of columns, selections, column sizing, etc.
+version: 19.1.54-beta
+homepage: https://github.com/cholojuanito/free_flutter_widgets/tree/main/packages/free_flutter_data_table
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  free_flutter_core:
+    path: ../free_flutter_core
+
+

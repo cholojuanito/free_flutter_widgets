@@ -1,0 +1,18 @@
+name: free_flutter_sheets
+description: Free Flutter Sheets helps you create Excel documents with formulas, charts, images, hyperlinks, autofit rows and columns, and more.
+version: 19.1.54-beta
+homepage: https://github.com/cholojuanito/free_flutter_widgets/tree/main/packages/free_flutter_sheets
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  xml: ^5.0.2
+  archive: ^3.1.2
+  image: ^3.0.1
+  intl: ^0.17.0
+  crypto: ^3.0.0
+  free_flutter_office_core: 
+    path: ../free_flutter_office_core

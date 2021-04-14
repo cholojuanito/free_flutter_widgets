@@ -1,0 +1,42 @@
+name: free_flutter_pdf_viewer
+description: Flutter PDF Viewer library is used to display a PDF documents.
+version: 19.1.54-beta
+homepage: https://github.com/cholojuanito/free_flutter_widgets/tree/main/packages/free_flutter_pdf_viewer
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+flutter:
+  # This section identifies this Flutter project as a plugin project.
+  # The 'pluginClass' and Android 'package' identifiers should not ordinarily
+  # be modified. They are used by the tooling to maintain consistency when
+  # adding or updating assets for this project.
+  # TODO figure out pdf viewer plugin stuff
+  plugin:
+    platforms:
+      android:
+        package: com.syncfusion.flutter.pdfviewer
+        pluginClass: SyncfusionFlutterPdfViewerPlugin
+      ios:
+        pluginClass: SyncfusionFlutterPdfViewerPlugin
+      web:
+        default_package: free_flutter_pdfviewer_web
+
+dependencies:
+  flutter:
+    sdk: flutter
+  vector_math: ^2.1.0
+  async: ^2.5.0
+  http: ^0.13.0
+
+  free_flutter_pdfviewer_platform_interface:
+    path: ../free_flutter_pdfviewer_platform_interface
+
+  free_flutter_pdfviewer_web:
+    path: ../free_flutter_pdfviewer_web
+
+  free_flutter_core:
+    path: ../free_flutter_core
+  free_flutter_pdf:
+    path: ../free_flutter_pdf
+

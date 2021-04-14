@@ -1,0 +1,23 @@
+name: free_flutter_pdf_viewer_web
+description: Web platform implementation of the Free Flutter PDF Viewer library.
+version: 19.1.54-beta
+homepage: https://github.com/cholojuanito/free_flutter_widgets/tree/main/packages/free_flutter_pdf_viewer_web
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  js: ^0.6.3
+  free_flutter_pdf_viewer_platform_interface:
+    path: ../free_flutter_pdf_viewer_platform_interface
+
+flutter:
+  plugin:
+    platforms:
+     web:
+        pluginClass: SyncfusionFlutterPdfViewerPlugin
+        fileName: pdfviewer_web.dart

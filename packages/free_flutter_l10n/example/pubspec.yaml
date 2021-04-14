@@ -1,0 +1,23 @@
+name: localization_example
+description: This project holds information about the usage of the free_localization package with the Flutter Syncfusion Calendar widget.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  free_localizations:
+    path: ../
+  free_flutter_calendar:
+    path: ../../free_flutter_calendar
+  cupertino_icons: ^0.1.3
+
+flutter:
+
+  uses-material-design: true
+
+  

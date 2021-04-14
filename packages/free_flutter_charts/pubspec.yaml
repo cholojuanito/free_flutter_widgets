@@ -1,0 +1,17 @@
+name: free_flutter_charts
+description: Free Flutter Charts library includes data visualization widgets such as cartesian and circular charts, to create real-time, interactive, high-performance, animated charts.
+version: 19.1.54
+homepage: https://github.com/cholojuanito/free_flutter_widgets/tree/main/packages/free_flutter_charts
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.17.0
+  vector_math: ^2.1.0
+  free_flutter_core:
+    path: ../free_flutter_core
+
+flutter:

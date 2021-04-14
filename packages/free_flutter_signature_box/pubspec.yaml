@@ -1,0 +1,15 @@
+name: free_flutter_signature_box
+description: The Flutter SignatureBox widget allows you to capture signatures through drawn gestures and save it as an image.
+version: 19.1.54-beta
+homepage: https://github.com/cholojuanito/free_flutter_widgets/tree/main/packages/free_flutter_signature_box
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  free_flutter_core:
+    path: ../free_flutter_core
+
+flutter:

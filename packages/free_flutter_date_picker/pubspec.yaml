@@ -1,0 +1,14 @@
+name: free_flutter_date_picker
+description: The Free Flutter Date Range Picker widget allows users to easily select dates or a range of dates. It has four built-in views that allow quick navigation to the desired date.
+version: 19.1.54-beta
+homepage: https://github.com/cholojuanito/free_flutter_widgets/tree/main/packages/free_flutter_date_picker
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ">=0.15.0 <0.20.0"
+  free_flutter_core:
+    path: ../free_flutter_core

@@ -1,0 +1,21 @@
+name: free_flutter_maps
+description: A Flutter Maps library for creating beautiful, interactive, and customizable maps from shape files or WMTS services to visualize the geographical area.
+version: 19.1.54-beta
+homepage: https://github.com/cholojuanito/free_flutter_widgets/tree/main/packages/free_flutter_maps
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  free_flutter_core:
+    path: ../free_flutter_core
+      
+  collection: ">=1.9.0 <=1.15.0"
+  http: ">=0.12.0 <=0.13.0"
+
+flutter:
+
+  

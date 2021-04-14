@@ -1,0 +1,17 @@
+name: free_flutter_gauges
+description: The Free Flutter gauges library includes a linear gauge and radial gauge (a.k.a. circular gauge) to create modern, interactive, animated gauges and radial sliders.
+version: 19.1.54
+homepage: https://github.com/cholojuanito/free_flutter_widgets/tree/main/packages/free_flutter_gauges
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  free_flutter_core:
+    path: ../free_flutter_core
+  intl: ^0.17.0
+
+flutter:
+ 
